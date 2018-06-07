@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black">
+
+            <TextView
+                android:id="@+id/txtTADWeekDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="right"
+                android:text="السبت"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/txtTADMonthDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity=""
+                android:layout_marginLeft="24dp"
+                android:layout_marginStart="24dp"
+                android:gravity="right"
+                android:text="1 رمضان"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/txtTADSALAHTIME"
+                android:layout_width="3.5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3.5"
+                android:gravity="right" />
+
+            <TextView
+                android:id="@+id/txtTADSALAH"
+                android:layout_width="6.5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6.5"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
